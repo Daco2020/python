@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['test.py'],
-             pathex=['C:\\Users\\Daco\\Desktop\\GitHub\\python'],
+             pathex=['/Users/daco/Documents/GitHub/python'],
              binaries=[],
              datas=[],
              hiddenimports=[],
