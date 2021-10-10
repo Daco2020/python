@@ -16,7 +16,7 @@ if name in team_one:
     shuffle(team_one)
     num = 1
     for order in team_one:
-        print("{0}번 순서는 {1}입니다." .format(num ,order))
+        print("{0}번 순서는 {1} 입니다." .format(num ,order))
         num += 1
         time.sleep(1)
 
@@ -25,7 +25,7 @@ elif name in team_two:
     shuffle(team_two)
     num = 1
     for order in team_two:
-        print("{0}번 순서는 {1}입니다." .format(num ,order))
+        print("{0}번 순서는 {1} 입니다." .format(num ,order))
         num += 1
         time.sleep(1)
 
@@ -34,7 +34,7 @@ elif name in team_three:
     shuffle(team_three)
     num = 1
     for order in team_three:
-        print("{0}번 순서는 {1}입니다." .format(num ,order))
+        print("{0}번 순서는 {1} 입니다." .format(num ,order))
         num += 1
         time.sleep(1)
         
@@ -43,7 +43,7 @@ elif name in team_four:
     shuffle(team_four)
     num = 1
     for order in team_four:
-        print("{0}번 순서는 {1}입니다." .format(num ,order))
+        print("{0}번 순서는 {1} 입니다." .format(num ,order))
         num += 1
         time.sleep(1)
 
@@ -52,7 +52,7 @@ elif name in team_five:
     shuffle(team_five)
     num = 1
     for order in team_five:
-        print("{0}번 순서는 {1}입니다." .format(num ,order))
+        print("{0}번 순서는 {1} 입니다." .format(num ,order))
         num += 1
         time.sleep(1)
 
@@ -61,7 +61,7 @@ elif name in team_six:
     shuffle(team_six)
     num = 1
     for order in team_six:
-        print("{0}번 순서는 {1}입니다." .format(num ,order))
+        print("{0}번 순서는 {1} 입니다." .format(num ,order))
         num += 1
         time.sleep(1)
 
