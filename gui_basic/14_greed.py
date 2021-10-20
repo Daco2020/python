@@ -22,7 +22,4 @@ btn4.grid(row=5, column=5, rowspan=5, sticky=N+W+S+E)
 
 
 
-
-
-
 root.mainloop()
