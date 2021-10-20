@@ -16,7 +16,7 @@ root.title("😽로디냥_v1")
 def add_file():
     files = filedialog.askopenfilenames(title="이미지 파일을 선택하세요", \
         filetypes=(("모든 파일", "*.*"),("PNG 파일", "*.png"),("JPG 파일", "*.jpg")), \
-        initialdir="C:/") # 최초에 C:/ 경로를 보여줌
+        initialdir="../Desktop") # 최초에 C:/ 경로를 보여줌
 
     # 사용자가 선택한 파일 목록
     for file in files:
@@ -113,7 +113,7 @@ def merge_image():
         file_name = "MergeImage"+curr_time+"."+img_format
         dest_path = os.path.join(txt_dest_path.get(), file_name)
         result_img.save(dest_path) # save 저장 () 안에 저장경로
-        msgbox.showinfo("알림", "하나의 이미지로 변환되었습니다! ☝🏼")
+        msgbox.showinfo("알림", "이미지 합치기 완료!")
     except Exception as err:
         msgbox.showerror("에러", err)
 

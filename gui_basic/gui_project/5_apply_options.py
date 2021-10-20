@@ -1,3 +1,4 @@
+
 import os
 import time
 import tkinter.ttk as ttk
@@ -67,11 +68,7 @@ def merge_image():
 
         images = [Image.open(x) for x in list_file.get(0, END)] # 이미지 불러오기
         # 이미지 사이즈 리스트에 넣어서 처리
-        image_sizes = [] # [(width1, height1), (...)]
-        if img_width > -1: # 원본 사이즈가 아니라면
-            image_sizes = [(int(img_width), int(img_width * x.size[1] / x.size[0])) for x in images]
-        else:
-            image_sizes = [(x.size[0], x.size[1]) for x in images]
+        image_sizes = [(int(img_width), int(img_width * x.size[1] / x.size[0])) for x in images]
 
         # 계산식
         # 100 * 60 이미지 > 가로를 80으로 줄이면 높이도 변경되어야 함
