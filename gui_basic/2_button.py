@@ -32,3 +32,4 @@ btn6 = Button(root, text="오늘의 나는", command=btncmd)
 btn6.pack()  # 실제 동작하는 버튼의 구조는 이렇게 됨. 커맨드로 함수를 불러로고 함수 내용이 실행됨
 
 root.mainloop()
+
